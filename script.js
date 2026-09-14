@@ -313,7 +313,7 @@ publishScript.addEventListener("click", () => {
         return;
     }
 
-    const to = "fiyorir726@94an.com";
+    const to = "Error! Do NOT Send anything, We Got Interfierd but we are working on the issue!";
     const subject = "External Script Upload";
     const body =
         "Title > " + title + "\n" +
