@@ -399,16 +399,16 @@ rewardPopup.addEventListener("click", (e) => {
 });
 
 sendEmailButton.addEventListener("click", () => {
-    const to = "fiyorir726@94an.com";
-    const subject = "Free Account";
-    const body = "Passkey/2-DA8w9r3307ASD-33";
+    const to = "";
+    const subject = "WRONG VERSION, DO NOT CONTINUE";
+    const body = "PLEASE STOP!";
     const url = "https://mail.google.com/mail/?view=cm&fs=1" +
         "&to=" + encodeURIComponent(to) +
         "&su=" + encodeURIComponent(subject) +
         "&body=" + encodeURIComponent(body);
 
     window.open(url, "_blank");
-    markClaimed("free-account");
+    markClaimed("ERROR!");
 });
 
 displayProjects();
